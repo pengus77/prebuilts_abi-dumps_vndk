@@ -521,6 +521,15 @@
  "elf_functions" :
  [
   {
+   "name" : "_ZN7android7BBinder21getMinSchedulerPolicyEv"
+  },
+  {
+   "name" : "_ZN7android7BBinder21setMinSchedulerPolicyEii"
+  },
+  {
+   "name" : "_ZN7android7BBinder23getMinSchedulerPriorityEv"
+  },
+  {
    "name" : "_ZN7android10AllocationC1ERKNS_2spINS_12MemoryDealerEEERKNS1_INS_11IMemoryHeapEEEij"
   },
   {
@@ -20341,6 +20350,53 @@
    ],
    "return_type" : "_ZTIRKN7android8String16E",
    "source_file" : "/frameworks/native/libs/binder/include/binder/Binder.h"
+  },
+  {
+    "function_name" : "android::BBinder::getMinSchedulerPolicy",
+    "linker_set_key" : "_ZN7android7BBinder21getMinSchedulerPolicyEv",
+    "parameters" :
+    [
+     {
+      "is_this_ptr" : true,
+      "referenced_type" : "_ZTIPN7android7BBinderE"
+     }
+    ],
+    "return_type" : "_ZTIi",
+    "source_file" : "/android/cesium/frameworks/native/libs/binder/include/binder/Binder.h"
+  },
+  {
+    "function_name" : "android::BBinder::setMinSchedulerPolicy",
+    "linker_set_key" : "_ZN7android7BBinder21setMinSchedulerPolicyEii",
+    "parameters" :
+    [
+     {
+      "is_this_ptr" : true,
+      "referenced_type" : "_ZTIPN7android7BBinderE"
+     },
+     {
+      "is_this_ptr" : false,
+      "referenced_type" : "_ZTIi"
+     },
+     {
+      "is_this_ptr" : false,
+      "referenced_type" : "_ZTIi"
+     }
+    ],
+    "return_type" : "_ZTIv",
+    "source_file" : "/android/cesium/frameworks/native/libs/binder/include/binder/Binder.h"
+  },
+  {
+    "function_name" : "android::BBinder::getMinSchedulerPriority",
+    "linker_set_key" : "_ZN7android7BBinder23getMinSchedulerPriorityEv",
+    "parameters" :
+    [
+     {
+      "is_this_ptr" : true,
+      "referenced_type" : "_ZTIPN7android7BBinderE"
+     }
+    ],
+    "return_type" : "_ZTIi",
+    "source_file" : "/android/cesium/frameworks/native/libs/binder/include/binder/Binder.h"
   },
   {
    "function_name" : "android::IBinder::checkSubclass",
